@@ -12,8 +12,8 @@
 		FA476E0F20626DA100CB1582 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA476E0D20626DA100CB1582 /* Main.storyboard */; };
 		FA476E1120626DA100CB1582 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA476E1020626DA100CB1582 /* Assets.xcassets */; };
 		FA476E1420626DA100CB1582 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA476E1220626DA100CB1582 /* LaunchScreen.storyboard */; };
+		FA5C021920641B8400405E14 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5C021820641B8400405E14 /* PlayerViewController.swift */; };
 		FAE3C6C920634E9700BE22AE /* mediaItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE3C6C820634E9700BE22AE /* mediaItemCell.swift */; };
-		FAE3C6CB206356CF00BE22AE /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE3C6CA206356CF00BE22AE /* PlayerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +24,8 @@
 		FA476E1020626DA100CB1582 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA476E1320626DA100CB1582 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA476E1520626DA100CB1582 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA5C021820641B8400405E14 /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 		FAE3C6C820634E9700BE22AE /* mediaItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mediaItemCell.swift; sourceTree = "<group>"; };
-		FAE3C6CA206356CF00BE22AE /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlayerViewController.swift; path = Songs/PlayerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +58,7 @@
 		FA476E0820626DA100CB1582 /* BigAppMusic */ = {
 			isa = PBXGroup;
 			children = (
+				FA5C021820641B8400405E14 /* PlayerViewController.swift */,
 				FA476E0920626DA100CB1582 /* AppDelegate.swift */,
 				FA476E0B20626DA100CB1582 /* ViewController.swift */,
 				FA476E0D20626DA100CB1582 /* Main.storyboard */,
@@ -65,7 +66,6 @@
 				FA476E1220626DA100CB1582 /* LaunchScreen.storyboard */,
 				FA476E1520626DA100CB1582 /* Info.plist */,
 				FAE3C6C820634E9700BE22AE /* mediaItemCell.swift */,
-				FAE3C6CA206356CF00BE22AE /* PlayerViewController.swift */,
 			);
 			path = BigAppMusic;
 			sourceTree = "<group>";
@@ -143,9 +143,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAE3C6C920634E9700BE22AE /* mediaItemCell.swift in Sources */,
-				FAE3C6CB206356CF00BE22AE /* PlayerViewController.swift in Sources */,
 				FA476E0C20626DA100CB1582 /* ViewController.swift in Sources */,
 				FA476E0A20626DA100CB1582 /* AppDelegate.swift in Sources */,
+				FA5C021920641B8400405E14 /* PlayerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
